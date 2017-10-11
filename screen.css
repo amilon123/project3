@@ -114,6 +114,9 @@ img {
   padding-bottom: 0.611em;
 }
 
+#navigation a:hover {
+  background-color: #54BA70;
+}
 /* Modular Styles */
 /*
   Repeating style patterns.

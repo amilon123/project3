@@ -41,10 +41,26 @@ p {
   padding-bottom: 1.222em;
 }
 
-h1{
+h1 {
+  font-size: 3.157em;
+  line-height: 0.968em;
+  padding-bottom: 0.387em;
+}
+
+h2 {
   font-size: 2.369em;
   line-height: 1.032em;
   padding-bottom: 0.516em;
+}
+
+h3 {
+  font-size: 1.777em;
+  line-height: 1.032em;
+  padding-bottom: 0.688em;
+}
+
+h4 {
+  font-weight: bold;
 }
 /*
   Hint: these tend to be

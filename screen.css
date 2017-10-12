@@ -83,6 +83,10 @@ footer > p {
   font-weight: 600;
   font-style: oblique;
 }
+
+figcaption {
+  padding-bottom: 0.688em;
+}
 /*
   Hint: these tend to be
   1. element selectors

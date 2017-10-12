@@ -72,6 +72,10 @@ h3 {
 h4 {
   font-weight: bold;
 }
+
+p {
+  text-indent: 20px;
+}
 /*
   Hint: these tend to be
   1. element selectors

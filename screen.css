@@ -140,6 +140,55 @@ img {
       spacing, color, etc. etc.
 */
 
+#goals h3 {
+  padding-top: 0.611em;
+  padding-bottom: 0.688em;
+}
+
+#goals p {
+  padding-top: 0.611em;
+}
+
+#education h3 {
+  padding-bottom: 0.611em;
+}
+
+#education h4 {
+  padding-top: 0.688em;
+  padding-bottom: 0em;
+}
+
+#attributes h3 {
+  padding-top: 0.688em;
+}
+
+#attributes ul {
+  padding-left: 1.222em;
+}
+
+#attributes li {
+  list-style-type: square;
+  padding-left: 0.688em;
+}
+
+#work h3 {
+  padding-top: 1.222em;
+  padding-bottom: 0.688em;
+}
+
+#work h4 {
+  padding-top: 0.611em;
+  padding-bottom: 1.125em;
+}
+
+#work ul {
+  padding-left: 1.222em;
+}
+
+#work li {
+  list-style-type: square;
+  padding-left: 0.688em;
+}
 /* State Styles */
 /*
   States of the browser and user access

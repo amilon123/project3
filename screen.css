@@ -106,6 +106,7 @@ img {
   width: 100%;
   padding-top: 0.611em;
   padding-bottom: 0.611em;
+  border: 1px solid #FEF9F9;
 }
 
 #navigation a:hover {

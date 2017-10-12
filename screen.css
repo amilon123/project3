@@ -140,12 +140,19 @@ img {
       spacing, color, etc. etc.
 */
 
-#goals h3 {
+#ambition,
+#education,
+#attributes,
+#work {
+  background-color: #ffe6ee;
+}
+
+#ambition h3 {
   padding-top: 0.611em;
   padding-bottom: 0.688em;
 }
 
-#goals p {
+#ambition p {
   padding-top: 0.611em;
 }
 

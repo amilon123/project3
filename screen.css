@@ -96,6 +96,7 @@ figcaption {
 
 /* Responsive Media */
 img {
+  padding-top: 1.125em;
   display: block;
   max-width: 100%;
 }

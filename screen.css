@@ -76,6 +76,13 @@ h4 {
 p {
   text-indent: 20px;
 }
+
+footer > p {
+  text-align: right;
+  font-variant: normal;
+  font-weight: 600;
+  font-style: oblique;
+}
 /*
   Hint: these tend to be
   1. element selectors

@@ -12,14 +12,14 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 html {
   background-color: #FEF9F9;
   font-family: serif, helvetica, arial, sans-serif;
-  font-size: 1.125em;
-  line-height: 1.222em;
+  font-size: 1.125em; /* 18 / 16 = 1.125 */
+  line-height: 1.222em; /* 22 / 18 = 1.222 */
 }
 
 body {
-  padding-top: 3.667em;
-  padding-right: 1.222em;
-  padding-left: 1.222em;
+  padding-top: 3.667em; /* 66 / 18 = 3.667*/
+  padding-right: 1.222em; /* 22 / 18 = 1.222 */
+  padding-left: 1.222em; /* 22 / 18 = 1.222 */
 }
 
 nav {
@@ -39,24 +39,24 @@ h4,
 h5,
 h6,
 p {
-  padding-bottom: 1.222em;
+  padding-bottom: 1.222em; /* 22 / 18 = 1.222 */
 }
 
 h1 {
   text-align: center;
   text-shadow: 0 0 3px #bfbfbf;
   font-style: italic;
-  font-size: 2.369em;
-  line-height: 1.032em;
-  padding-bottom: 0.516em;
+  font-size: 2.369em; /* 42.635 / 18 = 2.369 */
+  line-height: 1.032em; /* 44 / 42.635 = 1.032 */
+  padding-bottom: 0.516em; /* 22 / 42.635 = 0.516 */
 }
 
 h2 {
   text-align: center;
   font-variant: small-caps;
-  font-size: 1.777em;
-  line-height: 1.032em;
-  padding-bottom: 0.688em;
+  font-size: 1.777em; /* 31.984 / 18 = 1.777 */
+  line-height: 1.032em; /* 33 / 31.984 = 1.032 */
+  padding-bottom: 0.688em; /* 22 / 31.984 = 0.688 */
 }
 
 h3 {
@@ -84,7 +84,7 @@ footer > p {
 }
 
 figcaption {
-  padding-bottom: 0.688em;
+  padding-bottom: 0.688em; /* 22 / 31.984 = 0.688 */
 }
 /*
   Hint: these tend to be
@@ -95,7 +95,7 @@ figcaption {
 
 /* Responsive Media */
 img {
-  padding-top: 1.125em;
+  padding-top: 1.125em; /* 18 / 16 = 1.125 */
   display: block;
   max-width: 100%;
 }
@@ -122,8 +122,8 @@ img {
 #navigation a {
   display: block;
   width: 100%;
-  padding-top: 0.611em;
-  padding-bottom: 0.611em;
+  padding-top: 0.611em; /* 11 / 18 = 0.611 */
+  padding-bottom: 0.611em; /* 11 / 18 = 0.611 */
   border: 1px solid #FEF9F9;
 }
 
@@ -147,53 +147,53 @@ img {
 }
 
 #ambition h3 {
-  padding-top: 0.611em;
-  padding-bottom: 0.688em;
+  padding-top: 0.611em; /* 11 / 18 = 0.611 */
+  padding-bottom: 0.688em; /* 22 / 31.984 = 0.688 */
 }
 
 #ambition p {
-  padding-top: 0.611em;
+  padding-top: 0.611em; /* 11 / 18 = 0.611 */
 }
 
 #education h3 {
-  padding-bottom: 0.611em;
+  padding-bottom: 0.611em; /* 11 / 18 = 0.611 */
 }
 
 #education h4 {
-  padding-top: 0.688em;
+  padding-top: 0.688em; /* 22 / 31.984 = 0.688 */
   padding-bottom: 0em;
 }
 
 #attributes h3 {
-  padding-top: 0.688em;
+  padding-top: 0.688em; /* 22 / 31.984 = 0.688 */
 }
 
 #attributes ul {
-  padding-left: 1.222em;
+  padding-left: 1.222em; /* 22 / 18 = 1.222 */
 }
 
 #attributes li {
   list-style-type: square;
-  padding-left: 0.688em;
+  padding-left: 0.688em; /* 22 / 31.984 = 0.688 */
 }
 
 #work h3 {
-  padding-top: 1.222em;
-  padding-bottom: 0.688em;
+  padding-top: 1.222em; /* 22 / 18 = 1.222 */
+  padding-bottom: 0.688em; /* 22 / 31.984 = 0.688 */
 }
 
 #work h4 {
-  padding-top: 0.611em;
-  padding-bottom: 1.125em;
+  padding-top: 0.611em; /* 11 / 18 = 0.611 */
+  padding-bottom: 1.125em; /* 18 / 16 = 1.125 */
 }
 
 #work ul {
-  padding-left: 1.222em;
+  padding-left: 1.222em; /* 22 / 18 = 1.222 */
 }
 
 #work li {
   list-style-type: square;
-  padding-left: 0.688em;
+  padding-left: 0.688em; /* 22 / 31.984 = 0.688 */
 }
 /* State Styles */
 /*
@@ -207,13 +207,13 @@ img {
 
 @media screen and (min-width: 640px) {
   html {
-    font-size: 1.25em;
+    font-size: 1.25em; /* 20 / 16 = 1.25em */
   }
 }
 
 @media screen and (min-width: 860px) {
   body {
-    padding-left: 9.302325581%;
-    padding-right: 9.30233581%;
+    padding-left: 9.302325581%; /* 80 / 860 = 0.09302325581% */
+    padding-right: 9.30233581%; /* 80 / 860 = 0.09302325581% */
   }
 }

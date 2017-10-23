@@ -68,7 +68,7 @@ h3 {
   font-stretch: semi-expanded;
   text-decoration-style: solid;
   color: #F08080;
-  border-bottom: 0.2em dotted black; /*em was eyeballed*/
+  font-variant: small-caps;
   padding-bottom: 0;
 }
 

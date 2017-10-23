@@ -108,6 +108,10 @@ img {
   max-width: 100%;
 }
 
+.img-circle {
+  border-radius: 50%;
+}
+
 /* Layout Styles */
 /*
   Hint: these tend to be

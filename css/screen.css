@@ -11,7 +11,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* Base Styles */
 html {
   background-color: #FEF9F9;
-  font-family: serif, helvetica, arial, sans-serif;
+  font-family: arial, sans-serif, helvetica, verdana, times;
   font-size: 1.125em; /* 18 / 16 = 1.125 */
   line-height: 1.222em; /* 22 / 18 = 1.222 */
 }
@@ -60,7 +60,7 @@ h2 {
 }
 
 h3 {
-  font-family: serif, helvetica, arial, sans-serif;
+  font-family: arial, sans-serif, helvetica, verdana, times;
   font-variant: normal;
   font-weight: bolder;
   font-stretch: semi-expanded;

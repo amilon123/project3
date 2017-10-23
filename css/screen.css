@@ -65,7 +65,9 @@ h3 {
   font-weight: bolder;
   font-stretch: semi-expanded;
   text-decoration-style: solid;
-  text-shadow: 0 0 3px #cccccc;
+  color: #F08080;
+  border-bottom: 0.2em dotted black; /*em was eyeballed*/
+  padding-bottom: 0;
 }
 
 h4 {

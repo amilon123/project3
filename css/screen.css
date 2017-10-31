@@ -99,6 +99,11 @@ footer {
   padding-top: 0.611em; /* 11 / 18 = 0.611 */
   padding-bottom: 0.611em; /* 11 / 18 = 0.611 */
 }
+
+ul {
+  padding-left: 1.222em; /* 22 / 18 = 1.222 */
+  padding-bottom: 1.125em; /* 18 / 16 = 1.125 */
+}
 /*
   Hint: these tend to be
   1. element selectors

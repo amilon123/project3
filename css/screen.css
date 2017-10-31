@@ -64,12 +64,11 @@ h2 {
 
 h3 {
   font-family: arial, sans-serif, helvetica, verdana, times;
-  font-variant: normal;
+  font-variant: small-caps;
   font-weight: bolder;
   font-stretch: semi-expanded;
   text-decoration-style: solid;
   color: #F08080;
-  font-variant: small-caps;
   padding-top: 1.222em; /* 22 / 18 = 1.222 */
   padding-bottom: 0.688em; /* 22 / 31.984 = 0.688 */
 }

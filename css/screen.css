@@ -232,6 +232,7 @@ img {
     width: 180px;
     float: right;
     margin-left: 0;
+    margin-top: 0.688em;
   }
   .flexbox #alexis figcaption {
     display: flex;

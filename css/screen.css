@@ -39,6 +39,7 @@ h4,
 h5,
 h6,
 p {
+  padding-top: 0.611em; /* 11 / 18 = 0.611 */
   padding-bottom: 1.222em; /* 22 / 18 = 1.222 */
 }
 
@@ -70,6 +71,8 @@ h3 {
   color: #F08080;
   font-variant: small-caps;
   padding-bottom: 0;
+  padding-top: 1.222em; /* 22 / 18 = 1.222 */
+  padding-bottom: 0.688em; /* 22 / 31.984 = 0.688 */
 }
 
 h4 {
@@ -113,7 +116,7 @@ img {
 .img-circle {
   padding-top: 0;
   border-radius: 50%;
-  border: 0.3em solid black;
+  border: 0.3em solid black; /* em eyeballed */
 }
 
 /* Layout Styles */
@@ -154,15 +157,8 @@ img {
       spacing, color, etc. etc.
 */
 
-#ambition,
-#education,
-#attributes,
-#work {
-  background-color: #ffe6ee;
-}
-
 #ambition h3 {
-  padding-top: 0.611em; /* 11 / 18 = 0.611 */
+  padding-top: 3.667em; /* 66 / 18 = 3.667*/
   padding-bottom: 0.688em; /* 22 / 31.984 = 0.688 */
 }
 
@@ -171,20 +167,27 @@ img {
 }
 
 #education h3 {
-  padding-bottom: 0.611em; /* 11 / 18 = 0.611 */
+  padding-top: 1.125em; /* 18 / 16 = 1.125 */
+  padding-bottom: 0.688em; /* 11 / 18 = 0.611 */
+}
+
+#education p {
+  padding-top: 0.611em;
 }
 
 #education h4 {
   padding-top: 0.688em; /* 22 / 31.984 = 0.688 */
-  padding-bottom: 0em;
+  padding-bottom: 0.611em; /* 11 / 18 = 0.611 */
 }
 
 #attributes h3 {
-  padding-top: 0.688em; /* 22 / 31.984 = 0.688 */
+  padding-top: 1.125em; /* 18 / 16 = 1.125 */
+  padding-bottom: 0.688em; /* 11 / 18 = 0.611 */
 }
 
 #attributes ul {
   padding-left: 1.222em; /* 22 / 18 = 1.222 */
+  padding-top: 0.611em; /* 11 / 18 = 0.611 */
 }
 
 #attributes li {
@@ -204,6 +207,7 @@ img {
 
 #work ul {
   padding-left: 1.222em; /* 22 / 18 = 1.222 */
+  padding-bottom: 3.667em; /* 66 / 18 = 3.667*/
 }
 
 #work li {
@@ -232,6 +236,7 @@ img {
   #residency {
     clear: both;
   }
+}
 
 
 @media screen and (min-width: 640px) {

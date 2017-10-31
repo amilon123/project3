@@ -70,7 +70,6 @@ h3 {
   text-decoration-style: solid;
   color: #F08080;
   font-variant: small-caps;
-  padding-bottom: 0;
   padding-top: 1.222em; /* 22 / 18 = 1.222 */
   padding-bottom: 0.688em; /* 22 / 31.984 = 0.688 */
 }
@@ -102,7 +101,7 @@ footer {
 
 ul {
   padding-left: 1.222em; /* 22 / 18 = 1.222 */
-  padding-bottom: 1.125em; /* 18 / 16 = 1.125 */
+  padding-bottom: 1.777em; /* 31.984 / 18 = 1.777 */
 }
 /*
   Hint: these tend to be
@@ -233,10 +232,13 @@ img {
   #alexis img {
     width: 180px;
     float: right;
+    margin-left: 0;
   }
-  #alexis figcaption {
+  .flexbox #alexis figcaption {
+    display: flex;
     width: 126px;
     float: right;
+    justify-content: space-between;
 }
   #residency {
     clear: both;

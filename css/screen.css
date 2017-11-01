@@ -129,6 +129,18 @@ img {
   2. concerned with layout and spatial
      relationships
 */
+#contact-info li {
+  list-style-type: square;
+}
+
+#languages li {
+  list-style-type: square;
+}
+
+#interest li {
+  list-style-type: square;
+}
+
 #navigation {
   position: absolute;
   width: 100%;

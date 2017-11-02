@@ -343,34 +343,60 @@ img {
   #past-time h3 {
     width: 10%;
     right: 13%;
-    top: 51%;
+    top: 43%;
     position: absolute;
     bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   #past-time ul {
     width: 10%;
     right: 10%;
-    top: 60%;
+    top: 51%;
     bottom: 0;
     position: absolute;
+    margin-left: 0;
+    margin-right: 0;
   }
 
 
-@media screen and (min-width: 860px) {
+@media screen and (min-width: 740px) {
   body {
     padding-left: 9.302325581%; /* 80 / 860 = 0.09302325581% */
     padding-right: 9.30233581%; /* 80 / 860 = 0.09302325581% */
   }
   #alexis img {
-    width: 400px;
-    float: right;
-    margin-right: 20px;
+    width: 300px;
+    float: left;
+    margin-left: 220px;
   }
   #alexis figcaption {
-    width: 250px;
+    width: 150px;
     text-align: center;
-    float: right;
-    margin-right: 20px;
+    float: left;
+    margin-left: 20px;
+    top: 38%;
+    position: absolute;
+  }
+  #past-time h3 {
+    width: 150px;
+    text-align: center;
+    float: left;
+    margin-left: 20px;
+    top: 47%;
+    position: absolute;
+  }
+  #past-time ul {
+    width: 10%;
+    right: 13%;
+    top: 55%;
+    bottom: 0;
+    position: absolute;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  #residence h3 {
+    margin-top: 5%;
   }
 }

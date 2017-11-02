@@ -269,16 +269,16 @@ img {
   3. Organized by Base, Layout, Module, State
 */
 
-@media screen and (min-width: 360px) {
+@media screen and (min-width: 22.5em) {
   #alexis img {
-    width: 180px;
+    width: 9.5em;
     float: right;
     margin-left: 0;
-    margin-top: 2.125em; /* 18 / 16 = 1.125 */
+    margin-top: 2.5em;
   }
   .flexbox #alexis figcaption {
     display: flex;
-    width: 126px;
+    width: 7.875em;
     float: right;
     justify-content: space-between;
   }

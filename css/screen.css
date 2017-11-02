@@ -288,11 +288,11 @@ img {
 }
 
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 620px) {
   #alexis img {
     width: 250px;
     float: center;
-    margin-right: 20px;
+    margin-right: 165px;
     margin-bottom: 5%;
   }
 
@@ -336,9 +336,24 @@ img {
   #zodiac p {
     display: flex;
     padding-top: 0;
-    padding-bottom: 0;
     align-items: center;
     margin-top: 10%;
+  }
+
+  #past-time h3 {
+    width: 10%;
+    right: 13%;
+    top: 51%;
+    position: absolute;
+    bottom: 0;
+  }
+
+  #past-time ul {
+    width: 10%;
+    right: 10%;
+    top: 60%;
+    bottom: 0;
+    position: absolute;
   }
 
 

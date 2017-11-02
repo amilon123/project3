@@ -115,6 +115,11 @@ img {
   max-width: 100%;
 }
 
+.iit {
+  padding-top: 0;
+  border: 0.1em solid gray;
+}
+
 .img-circle {
   padding-top: 0;
   border-radius: 50%;
@@ -128,6 +133,22 @@ img {
   2. concerned with layout and spatial
      relationships
 */
+#contact-info li {
+  padding-bottom: 0.688em; /* 22 / 31.984 = 0.688 */
+}
+
+#contact-info ul {
+  padding-top: 0.611em; /* 11 / 18 = 0.611 */
+}
+
+#skyline figcaption {
+  padding-top: 2em; /*eyeballed em*/
+}
+
+#skyline figcaption {
+  padding-bottom: 3em; /*eyeballed em */
+}
+
 #contact-info ul,
 #autobiography ul {
   padding-left: 1.222em; /* 22 / 18 = 1.222 */
@@ -233,6 +254,7 @@ img {
   list-style-type: square;
   padding-left: 0.688em; /* 22 / 31.984 = 0.688 */
 }
+
 /* State Styles */
 /*
   States of the browser and user access

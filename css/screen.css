@@ -194,6 +194,14 @@ img {
       spacing, color, etc. etc.
 */
 
+#alexis h3 {
+  padding-top: 3.667em; /* 66 / 18 = 3.667*/
+}
+
+#goals h3 {
+  padding-top: 3.667em; /* 66 / 18 = 3.667*/
+}
+
 #ambition h3 {
   padding-top: 3.667em; /* 66 / 18 = 3.667*/
   padding-bottom: 0.688em; /* 22 / 31.984 = 0.688 */
@@ -266,7 +274,7 @@ img {
     width: 180px;
     float: right;
     margin-left: 0;
-    margin-top: 0.688em;
+    margin-top: 2.125em; /* 18 / 16 = 1.125 */
   }
   .flexbox #alexis figcaption {
     display: flex;

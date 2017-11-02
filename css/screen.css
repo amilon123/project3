@@ -142,10 +142,7 @@ img {
 }
 
 #skyline figcaption {
-  padding-top: 2em; /*eyeballed em*/
-}
-
-#skyline figcaption {
+  font-style: italic;
   padding-bottom: 3em; /*eyeballed em */
 }
 
@@ -254,7 +251,6 @@ img {
   list-style-type: square;
   padding-left: 0.688em; /* 22 / 31.984 = 0.688 */
 }
-
 /* State Styles */
 /*
   States of the browser and user access

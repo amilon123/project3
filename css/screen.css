@@ -288,18 +288,18 @@ img {
 }
 
 
-@media screen and (min-width: 620px) {
+@media screen and (min-width: 38.75em) {
   #alexis img {
-    width: 250px;
+    width: 13.625em;
     float: center;
-    margin-right: 165px;
+    margin-right: 10.3125em;
     margin-bottom: 5%;
   }
 
   #residency h3 {
-    padding-top: 10%;
+    padding-top: 8%;
     display: flex;
-    width: 150px;
+    width: 9.375em;
     float: left;
   }
 
@@ -312,9 +312,9 @@ img {
   }
 
   #sports h3 {
-    padding-top: 10%;
+    padding-top: 8%;
     display: flex;
-    width: 150px;
+    width: 9.375em;
     float: left;
   }
 
@@ -327,9 +327,9 @@ img {
   }
 
   #zodiac h3 {
-    padding-top: 10%;
+    padding-top: 8%;
     display: flex;
-    width: 150px;
+    width: 9.375em;
     float: left;
   }
 
@@ -343,7 +343,7 @@ img {
   #past-time h3 {
     width: 10%;
     right: 13%;
-    top: 43%;
+    top: 24.5%;
     position: absolute;
     bottom: 0;
     margin-left: 0;
@@ -353,11 +353,22 @@ img {
   #past-time ul {
     width: 10%;
     right: 10%;
-    top: 51%;
+    top: 30%;
     bottom: 0;
     position: absolute;
     margin-left: 0;
     margin-right: 0;
+  }
+  #past-time li {
+    padding-top: 0.688em;
+  }
+
+  #about-alexis h3 {
+    padding-top: 4.5em;
+  }
+
+  #languages li {
+    padding-top: 0.688em;
   }
 
 

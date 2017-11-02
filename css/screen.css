@@ -288,19 +288,59 @@ img {
 }
 
 
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 600px) {
   #alexis img {
-    width: 300px;
-    float: right;
-    margin-right: 20px;
-  }
-  #alexis figcaption {
     width: 250px;
-    text-align: center;
-    float: right;
+    float: center;
     margin-right: 20px;
+    margin-bottom: 5%;
   }
-}
+
+  #residency h3 {
+    padding-top: 10%;
+    display: flex;
+    width: 150px;
+    float: left;
+  }
+
+  #residency p {
+    display: flex;
+    padding-top: 0;
+    padding-bottom: 0;
+    align-items: center;
+    margin-top: 10%;
+  }
+
+  #sports h3 {
+    padding-top: 10%;
+    display: flex;
+    width: 150px;
+    float: left;
+  }
+
+  #sports p {
+    display: flex;
+    padding-top: 0;
+    padding-bottom: 0;
+    align-items: center;
+    margin-top: 10%;
+  }
+
+  #zodiac h3 {
+    padding-top: 10%;
+    display: flex;
+    width: 150px;
+    float: left;
+  }
+
+  #zodiac p {
+    display: flex;
+    padding-top: 0;
+    padding-bottom: 0;
+    align-items: center;
+    margin-top: 10%;
+  }
+
 
 @media screen and (min-width: 860px) {
   body {

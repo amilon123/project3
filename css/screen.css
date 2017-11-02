@@ -372,29 +372,27 @@ img {
   }
 
 
-@media screen and (min-width: 740px) {
+@media screen and (min-width: 46.25em) {
   body {
-    padding-left: 9.302325581%; /* 80 / 860 = 0.09302325581% */
-    padding-right: 9.30233581%; /* 80 / 860 = 0.09302325581% */
+    padding-left: 10.810%; /* 80 / 740 = 0.10810810% */
+    padding-right: 10.810%; /* 80 / 740 = 0.10810810% */
   }
   #alexis img {
-    width: 300px;
+    width: 10.73em;
     float: left;
-    margin-left: 220px;
+    margin-left: 0;
   }
-  #alexis figcaption {
-    width: 150px;
-    text-align: center;
-    float: left;
-    margin-left: 20px;
-    top: 38%;
-    position: absolute;
+  .flexbox #alexis figcaption {
+    display: flex;
+    width: 50%;
+    float: right;
+    justify-content: space-between;
   }
   #past-time h3 {
-    width: 150px;
+    width: 9.375em;
     text-align: center;
     float: left;
-    margin-left: 20px;
+    margin-left: 1.25em;
     top: 47%;
     position: absolute;
   }
@@ -407,7 +405,22 @@ img {
     margin-left: 0;
     margin-right: 0;
   }
-  #residence h3 {
-    margin-top: 5%;
+  #autobiography section {
+    flex-flow: column;
+    width: 60%;
+    display: flex;
+    padding-bottom: 1em;
   }
+
+  #about-alexis h3 {
+    float: right;
+    width: 20%;
+    padding-top: 4.5em;
+  }
+  #languages li {
+    float: right;
+    margin-left: 5em;
+    padding-top: 0.688em;
+    width: 20%;
+    }
 }

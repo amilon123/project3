@@ -343,17 +343,18 @@ img {
   #past-time h3 {
     width: 10%;
     right: 13%;
-    top: 24.5%;
+    top: 17em;
     position: absolute;
     bottom: 0;
     margin-left: 0;
     margin-right: 0;
+    padding-top: 0.611em;
   }
 
   #past-time ul {
     width: 10%;
     right: 10%;
-    top: 30%;
+    top: 19em;
     bottom: 0;
     position: absolute;
     margin-left: 0;
@@ -383,23 +384,27 @@ img {
     margin-left: 0;
   }
   .flexbox #alexis figcaption {
-    display: flex;
-    width: 50%;
+    position: absolute;
+    width: 9.375em;
+    text-align: center;
     float: right;
-    justify-content: space-between;
+    margin-right: 1.25em;
+    top: 47em;
   }
   #past-time h3 {
     width: 9.375em;
     text-align: center;
     float: left;
-    margin-left: 1.25em;
-    top: 47%;
+    margin-left: 0;
+    margin-right: 0;
+    top: 38.5em;
     position: absolute;
   }
   #past-time ul {
     width: 10%;
     right: 13%;
-    top: 55%;
+    top: 41em;
+    text-align: left;
     bottom: 0;
     position: absolute;
     margin-left: 0;
@@ -411,16 +416,14 @@ img {
     display: flex;
     padding-bottom: 1em;
   }
-
-  #about-alexis h3 {
-    float: right;
-    width: 20%;
-    padding-top: 4.5em;
   }
   #languages li {
-    float: right;
-    margin-left: 5em;
     padding-top: 0.688em;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
     width: 20%;
     }
+
 }

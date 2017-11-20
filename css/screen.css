@@ -17,27 +17,18 @@ html {
 }
 
 body {
-  padding-top: 0; /* Let color bleed off page*/
+  padding-top: 0;
   padding-right: 0;
   padding-left: 0;
 }
 
 main {
-  padding-left: 1.222em;
   padding-right: 1.222em;
+  padding-left: 1.222em;
 }
 
 a {
   text-align: center;
-}
-
-nav ul > li > a {
-  color: #E5637B;
-  font-variant: small-caps;
-  background-color: #65395B;
-  outline: 0.0625em;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
 }
 
 h2,
@@ -70,6 +61,7 @@ h2 {
   padding-top: 0.516em; /* 22 / 42.635 = 0.516 */
   border-top: 0.065em solid black; /*eyeballed the width of the solid border*/
   border-bottom: 0.065em solid black;
+  margin-top: 0.5em;
 }
 
 h3 {
@@ -110,6 +102,28 @@ footer {
 
 ul {
   padding-bottom: 1.777em; /* 31.984 / 18 = 1.777 */
+}
+
+nav ul > li > a {
+  display: block;
+  color: #E5637B;
+  font-variant: small-caps;
+  background-color: #65395B;
+  width: 100%;
+  outline: 0.0625em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+nav ul > li {
+  padding: 0;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 0;
 }
 /*
   Hint: these tend to be
@@ -173,28 +187,14 @@ img {
   list-style-type: square;
 }
 
-#navigation {
-  position: absolute;
-  width: 100%;
-  top: 0;
-  left: 0;
-}
-
 #navigation li {
-  float: left;
-  width: 33.333%;
-}
-
-#navigation a {
-  display: block;
-  width: 100%;
-  padding-top: 0.611em; /* 11 / 18 = 0.611 */
-  padding-bottom: 0.611em; /* 11 / 18 = 0.611 */
+  margin-bottom: 0.125em;
 }
 
 #navigation a:hover {
   background-color: #C2C99D;
 }
+
 /* Modular Styles */
 /*
   Repeating style patterns.

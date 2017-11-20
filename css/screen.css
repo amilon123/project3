@@ -269,6 +269,14 @@ img {
   list-style-type: square;
   padding-left: 0.688em; /* 22 / 31.984 = 0.688 */
 }
+
+#music figcaption {
+  margin-top: 1.222em;
+}
+
+#music section {
+  margin-bottom: 0; /* 22 / 18 = 1.222 */
+}
 /* State Styles */
 /*
   States of the browser and user access

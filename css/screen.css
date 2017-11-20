@@ -10,7 +10,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* Base Styles */
 html {
-  background-color: #FEF9F9;
+  background: linear-gradient(#A34764, #65395B);
   font-family: arial, sans-serif, helvetica, verdana, times;
   font-size: 1.125em; /* 18 / 16 = 1.125 */
   line-height: 1.222em; /* 22 / 18 = 1.222 */
@@ -22,17 +22,15 @@ body {
   padding-left: 1.222em; /* 22 / 18 = 1.222 */
 }
 
-nav {
-  background-color: #F08080;
+nav ul > li > a {
+  color: #E5637B;
+  font-variant: small-caps;
+  background-color: #65395B;
+  outline: 0.0625em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
 }
 
-nav a {
-  text-align: center;
-  text-decoration: none;
-  color: #FFF0F5;
-}
-
-h1,
 h2,
 h3,
 h4,
@@ -44,6 +42,9 @@ p {
 }
 
 h1 {
+  background: linear-gradient(#65395B, #A34764);
+  padding-bottom: 1.222em;
+  padding-top: 0.5em;
   text-align: center;
   font-style: italic;
   font-size: 2.369em; /* 42.635 / 18 = 2.369 */
@@ -68,7 +69,7 @@ h3 {
   font-weight: bolder;
   font-stretch: semi-expanded;
   text-decoration-style: solid;
-  color: #F08080;
+  color: #E5637B;
   padding-top: 1.222em; /* 22 / 18 = 1.222 */
   padding-bottom: 0.688em; /* 22 / 31.984 = 0.688 */
 }
@@ -89,7 +90,7 @@ figcaption {
 }
 
 footer {
-  background-color: #F08080;
+  background-color: #A34764;
   width: 100%;
   left: 0;
   text-align: center;
@@ -183,7 +184,7 @@ img {
 }
 
 #navigation a:hover {
-  background-color: #ea4848;
+  background-color: #C2C99D;
 }
 /* Modular Styles */
 /*

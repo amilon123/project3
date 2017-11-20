@@ -436,3 +436,25 @@ img {
     }
 
 }
+
+@media screen and (min-width: 68em) {
+  body {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+@media screen and (min-width: 82.5em) {
+  body {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  #past-time h3 {
+    top: 33em;
+    right: 23%;
+  }
+  #past-time ul {
+    top: 35em;
+    right: 20%;
+  }
+}

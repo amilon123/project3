@@ -10,7 +10,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* Base Styles */
 html {
-  background: linear-gradient(#A34764, #65395B);
+  background: linear-gradient(#009688, #8E24AA);
   font-family: arial, sans-serif, helvetica, verdana, times;
   font-size: 1.125em; /* 18 / 16 = 1.125 */
   line-height: 1.222em; /* 22 / 18 = 1.222 */
@@ -42,14 +42,17 @@ p {
 }
 
 h1 {
-  background: linear-gradient(#65395B, #A34764);
+  background: linear-gradient(#673AB7, #880E4F);
   padding-bottom: 1.222em;
   padding-top: 0.5em;
+  margin-bottom: 0.5em;
   text-align: center;
   font-style: italic;
   font-size: 2.369em; /* 42.635 / 18 = 2.369 */
   line-height: 1.032em; /* 44 / 42.635 = 1.032 */
   padding-bottom: 0.516em; /* 22 / 42.635 = 0.516 */
+  border-bottom: thick solid black;
+  color: #FF1744;
 }
 
 h2 {
@@ -70,7 +73,7 @@ h3 {
   font-weight: bolder;
   font-stretch: semi-expanded;
   text-decoration-style: solid;
-  color: #E5637B;
+  color: #FF1744;
   padding-top: 1.222em; /* 22 / 18 = 1.222 */
   padding-bottom: 0.688em; /* 22 / 31.984 = 0.688 */
 }
@@ -91,7 +94,7 @@ figcaption {
 }
 
 footer {
-  background-color: #A34764;
+  background-color: #673AB7;
   width: 100%;
   left: 0;
   text-align: center;
@@ -106,9 +109,9 @@ ul {
 
 nav ul > li > a {
   display: block;
-  color: #E5637B;
+  color: #FF1744;
+  background: linear-gradient(#009688, #8E24AA);
   font-variant: small-caps;
-  background-color: #65395B;
   width: 100%;
   outline: 0.0625em;
   padding-top: 0.5em;
@@ -116,7 +119,8 @@ nav ul > li > a {
 }
 
 nav ul > li {
-  padding: 0;
+  padding-left: 1.222em;
+  padding-right: 1.222em;
 }
 
 nav ul {
@@ -188,11 +192,11 @@ img {
 }
 
 #navigation li {
-  margin-bottom: 0.125em;
+  margin-bottom: 0.5em;
 }
 
 #navigation a:hover {
-  background-color: #C2C99D;
+  color: white;
 }
 
 /* Modular Styles */

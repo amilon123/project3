@@ -10,7 +10,10 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* Base Styles */
 html {
-  background-image: url("../images/raindrops2.jpg");
+  background-image: url("../images/diamonds.png");
+  background-size: 100%;
+  background-repeat: repeat-y;
+  color: #66ff66;
   font-family: arial, sans-serif, helvetica, verdana, times;
   font-size: 1.125em; /* 18 / 16 = 1.125 */
   line-height: 1.222em; /* 22 / 18 = 1.222 */
@@ -29,6 +32,7 @@ main {
 
 a {
   text-align: center;
+  color: #66ff66;
 }
 
 h2,
@@ -42,15 +46,18 @@ p {
 }
 
 h1 {
-  background-image: url("../images/skyline.jpg");
+  background-image: url("../images/darkFlower2.jpg");
+  background-size: 8em;
   padding-bottom: 1.222em;
   padding-top: 0.5em;
   margin-bottom: 0.5em;
   text-align: center;
-  font-size: 2.369em; /* 42.635 / 18 = 2.369 */
+  font-size: 2em; /* 42.635 / 18 = 2.369 */
   line-height: 1.032em; /* 44 / 42.635 = 1.032 */
   padding-bottom: 0.516em; /* 22 / 42.635 = 0.516 */
-  color: black;
+  color: #ffff33;
+  opacity: 0.85;
+  font-weight: bold;
   border-bottom: solid black;
 }
 
@@ -64,6 +71,13 @@ h2 {
   border-top: 0.065em solid black; /*eyeballed the width of the solid border*/
   border-bottom: 0.065em solid black;
   margin-top: 0.5em;
+  background-color: black;
+  opacity: 0.9;
+  border-radius: 0.125em;
+  border-style: outset;
+  border-color: gray;
+  border-width: 0.125em;
+  text-align: center;
 }
 
 h3 {
@@ -77,6 +91,16 @@ h3 {
   margin-top: 0;
   padding-top: 1.222em; /* 22 / 18 = 1.222 */
   padding-bottom: 0.688em; /* 22 / 31.984 = 0.688 */
+}
+
+p {
+  background-color: black;
+  opacity: 0.9;
+  border-radius: 0.125em;
+  border-style: outset;
+  border-color: gray;
+  border-width: 0.125em;
+  text-align: center;
 }
 
 h4 {
@@ -150,8 +174,7 @@ img {
 }
 
 .iit {
-  padding-top: 0;
-  border: 0.1em solid gray;
+  padding-top: 2em;
 }
 
 .img-circle {
@@ -177,20 +200,45 @@ img {
 
 #skyline figcaption {
   font-style: italic;
+  background-color: black;
+  opacity: 0.9;
+  border-radius: 0.125em;
+  border-style: outset;
+  border-color: gray;
+  border-width: 0.125em;
   padding-bottom: 3em; /*eyeballed em */
 }
 
 #contact-info ul,
 #autobiography ul {
   padding-left: 1.222em; /* 22 / 18 = 1.222 */
+  padding-bottom: 0.611em;
 }
 
 #contact-info li {
   list-style-type: square;
 }
 
+#contact-info ul{
+  background-color: black;
+  opacity: 0.9;
+  border-radius: 0.125em;
+  border-style: outset;
+  border-color: gray;
+  border-width: 0.125em;
+  margin-bottom: 0;
+}
+
 #languages li {
+  background-color: black;
+  opacity: 0.9;
+  border-radius: 0.125em;
+  border-style: outset;
+  border-color: gray;
+  border-width: 0.125em;
+  text-align: center;
   list-style-type: square;
+  width: 50%;
 }
 
 #interest li {
@@ -222,18 +270,46 @@ img {
   padding-top: 3.667em; /* 66 / 18 = 3.667*/
 }
 
+#content h2 {
+  margin-bottom: 2em;
+}
+
 #ambition h3 {
-  padding-top: 3.667em; /* 66 / 18 = 3.667*/
+  padding-top: 1.125em; /* 18 / 16 = 1.125 */
   padding-bottom: 0.688em; /* 22 / 31.984 = 0.688 */
+  background-color: white;
+  opacity: 0.8;
+  border-radius: 0.125em;
+  border-style: outset;
+  border-color: gray;
+  border-width: 0.125em;
+  color: black;
+  text-align: center;
 }
 
 #ambition p {
   padding-top: 0.611em; /* 11 / 18 = 0.611 */
+  background-color: black;
+  opacity: 0.9;
+  border-radius: 0.125em;
+  border-style: outset;
+  border-color: gray;
+  border-width: 0.125em;
+  text-align: center;
+  margin-bottom: 5em;
 }
 
 #education h3 {
   padding-top: 1.125em; /* 18 / 16 = 1.125 */
   padding-bottom: 0.688em; /* 11 / 18 = 0.611 */
+  background-color: white;
+  opacity: 0.8;
+  border-radius: 0.125em;
+  border-style: outset;
+  border-color: gray;
+  border-width: 0.125em;
+  color: black;
+  text-align: center;
 }
 
 #education p {
@@ -243,16 +319,49 @@ img {
 #education h4 {
   padding-top: 0.688em; /* 22 / 31.984 = 0.688 */
   padding-bottom: 0.611em; /* 11 / 18 = 0.611 */
+  color: purple;
+  background-color: black;
+  opacity: 0.9;
+  border-radius: 0.125em;
+  border-style: outset;
+  border-color: gray;
+  border-width: 0.125em;
+  text-align: center;
+}
+
+#education ul {
+  background-color: black;
+  opacity: 0.9;
+  border-radius: 0.125em;
+  border-style: outset;
+  border-color: gray;
+  border-width: 0.125em;
+  text-align: center;
 }
 
 #attributes h3 {
   padding-top: 1.125em; /* 18 / 16 = 1.125 */
   padding-bottom: 0.688em; /* 11 / 18 = 0.611 */
+  background-color: white;
+  opacity: 0.8;
+  border-radius: 0.125em;
+  border-style: outset;
+  border-color: gray;
+  border-width: 0.125em;
+  color: black;
+  text-align: center;
 }
 
 #attributes ul {
   padding-left: 1.222em; /* 22 / 18 = 1.222 */
   padding-top: 0.611em; /* 11 / 18 = 0.611 */
+  background-color: black;
+  opacity: 0.9;
+  border-radius: 0.125em;
+  border-style: outset;
+  border-color: gray;
+  border-width: 0.125em;
+  margin-bottom: 5em;
 }
 
 #attributes li {
@@ -263,16 +372,39 @@ img {
 #work h3 {
   padding-top: 1.222em; /* 22 / 18 = 1.222 */
   padding-bottom: 0.688em; /* 22 / 31.984 = 0.688 */
+  background-color: white;
+  opacity: 0.8;
+  border-radius: 0.125em;
+  border-style: outset;
+  border-color: gray;
+  border-width: 0.125em;
+  color: black;
+  text-align: center;
 }
 
 #work h4 {
   padding-top: 0.611em; /* 11 / 18 = 0.611 */
   padding-bottom: 1.125em; /* 18 / 16 = 1.125 */
+  color: purple;
+  background-color: black;
+  opacity: 0.9;
+  border-radius: 0.125em;
+  border-style: outset;
+  border-color: gray;
+  border-width: 0.125em;
+  text-align: center;
 }
 
 #work ul {
   padding-left: 1.222em; /* 22 / 18 = 1.222 */
   padding-bottom: 3.667em; /* 66 / 18 = 3.667*/
+  background-color: black;
+  opacity: 0.9;
+  border-radius: 0.125em;
+  border-style: outset;
+  border-color: gray;
+  border-width: 0.125em;
+  margin-bottom: 5em;
 }
 
 #work li {
@@ -286,6 +418,16 @@ img {
 
 #music section {
   margin-bottom: 0; /* 22 / 18 = 1.222 */
+}
+
+#past-time li {
+  background-color: black;
+  opacity: 0.9;
+  border-radius: 0.125em;
+  border-style: outset;
+  border-color: gray;
+  border-width: 0.125em;
+  text-align: center;
 }
 /* State Styles */
 /*
@@ -380,8 +522,9 @@ img {
   }
 
   #past-time ul {
-    width: 10%;
-    right: 10%;
+    text-align: center;
+    width: 20%;
+    right: 5%;
     top: 30em;
     bottom: 0;
     position: absolute;
@@ -389,7 +532,15 @@ img {
     margin-right: 0;
   }
   #past-time li {
+    background-color: black;
+    opacity: 0.9;
+    border-radius: 0.125em;
+    border-style: outset;
+    border-color: gray;
+    border-width: 0.125em;
+    text-align: center;
     padding-top: 0.688em;
+    width: 100%;
   }
 
   #about-alexis h3 {
@@ -398,6 +549,14 @@ img {
 
   #languages li {
     padding-top: 0.688em;
+    background-color: black;
+    opacity: 0.9;
+    border-radius: 0.125em;
+    border-style: outset;
+    border-color: gray;
+    border-width: 0.125em;
+    text-align: center;
+    width: 25%;
   }
 
 
@@ -434,7 +593,7 @@ img {
     position: absolute;
   }
   #past-time ul {
-    width: 10%;
+    width: 15%;
     right: 23%;
     top: 43em;
     text-align: left;

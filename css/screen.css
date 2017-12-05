@@ -705,7 +705,7 @@ img {
 
   #about-alexis h3 {
     padding-top: 0.5em;
-    width: 30%;
+    width: 29%;
   }
   #about-alexis ul {
     left: 0;
@@ -724,6 +724,20 @@ img {
   #languages li {
     padding-top: 0.688em;
   }
+  #santana figcaption {
+    margin-bottom: 1em;
+  }
+  #santana iframe {
+    margin-left: 10em;
+  }
+  #tame figcaption {
+    margin-bottom: 1em;
+    padding-top: 0.5em;
+  }
+  #tame iframe {
+    margin-left: 10em;
+  }
+}
 
 
 @media screen and (min-width: 50.25em) {  /* 804px*/
@@ -738,8 +752,10 @@ img {
   }
   #alexis img {
     width: 12em;
-    float: left;
+    float: right;
     margin-left: 0;
+    margin-right: 5em;
+    margin-top: 0;
   }
   .flexbox #alexis figcaption {
     position: absolute;
@@ -753,8 +769,7 @@ img {
     width: 5em;
     text-align: center;
     float: left;
-    margin-left: 0.5em;
-    margin-right: 2em;
+    margin-right: 1.5em;
     top: 26.5em;
     position: absolute;
   }
@@ -769,8 +784,7 @@ img {
     margin-right: 0;
   }
   #about-alexis h3 {
-    width: 15%;
-    padding-top: 0;
+    width: 29%;
     bottom: 5em;
   }
   #autobiography section {
@@ -795,8 +809,24 @@ img {
     margin-right: 0;
     text-align: center;
     width: 40%;
+    padding-left: 1.5em;
     }
-
+  #about-alexis ul {
+    padding-bottom: 8em;
+  }
+  #santana figcaption {
+    margin-bottom: 1em;
+  }
+  #santana iframe {
+    margin-left: 2em;
+  }
+  #tame figcaption {
+    margin-bottom: 1em;
+    padding-top: 0.5em;
+  }
+  #tame iframe {
+    margin-left: 2em;
+  }
 }
 
 @media screen and (min-width: 68em) {   /*1088px*/
@@ -804,14 +834,43 @@ img {
     padding-left: 5%;
     padding-right: 5%;
   }
+  #alexis img {
+    margin-right: 0;
+    margin-left: 0;
+    padding-left: 0;
+    left: 0;
+  }
   #past-time h3 {
-  margin-right: 5%;
-  padding-bottom: 0.5em;
+    margin-right: 5%;
+    padding-bottom: 0.5em;
+    width: 25%;
+    padding-top: 0.5em;
+    top: 27em;
   }
   #past-time ul {
-
+    width: 24.5%;
+    padding-left: 0.5em;
   }
-
+  #past-time li {
+    padding-top: 0.175em;
+    padding-bottom: 0.175em;
+  }
+  #about-alexis h3 {
+    width: 28%;
+  }
+  #santana figcaption {
+    margin-bottom: 1em;
+  }
+  #santana iframe {
+    margin-left: 5em;
+  }
+  #tame figcaption {
+    margin-bottom: 1em;
+    padding-top: 0.5em;
+  }
+  #tame iframe {
+    margin-left: 5em;
+  }
 }
 
 @media screen and (min-width: 82.5em) {  /*1320px*/
@@ -821,10 +880,13 @@ img {
   }
   #past-time h3 {
     top: 27em;
-    right: 18%;
+    right: 14.5%;
+    width: 20%;
   }
   #past-time ul {
     top: 43em;
     right: 20%;
+    width: 20%;
   }
+
 }

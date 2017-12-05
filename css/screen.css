@@ -244,9 +244,22 @@ img {
   margin-bottom: 5em;
 }
 
+#about-alexis ul {
+  left: 0;
+  margin-left: 0;
+  padding-right: 0;
+  background-color: black;
+  opacity: 0.9;
+  border-radius: 0.125em;
+  border-style: outset;
+  border-color: gray;
+  border-width: 0.125em;
+  width: 47.5%;
+}
+
 #about-alexis h3 {
   box-sizing: border-box;
-  width: 60%;
+  width: 54%;
   background-color: white;
   opacity: 0.8;
   border-radius: 0.125em;
@@ -256,14 +269,13 @@ img {
   color: black;
 }
 
+#languages ul {
+  left: 0;
+  padding-left: 0;
+  margin-left: 0;
+}
+
 #languages li {
-  background-color: black;
-  opacity: 0.9;
-  border-radius: 0.125em;
-  border-style: outset;
-  border-color: gray;
-  border-width: 0.125em;
-  text-align: center;
   list-style-type: square;
   width: 50%;
 }
@@ -483,7 +495,6 @@ img {
   border-width: 0.125em;
   color: black;
   text-align: center;
-  margin-top: 5em;
 }
 
 #residency p {
@@ -533,6 +544,7 @@ img {
 
 #past-time ul {
   margin-bottom: 5em;
+  padding-left: 0;
 }
 
 #music h3 {
@@ -585,7 +597,7 @@ img {
     width: 6.5em;
     float: right;
     margin-left: 0;
-    margin-top: 6.5em;
+    margin-top: 1.5em;
   }
   .flexbox #alexis figcaption {
     display: flex;

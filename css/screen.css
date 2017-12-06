@@ -161,6 +161,10 @@ nav ul {
   list-style-type: none;
   padding: 0;
 }
+
+label {
+  display: block;
+}
 /*
   Hint: these tend to be
   1. element selectors
@@ -581,6 +585,11 @@ img {
   border-color: gray;
   border-width: 0.125em;
   text-align: center;
+}
+
+form ol,
+form ol li {
+  list-style-type: none;
 }
 /* State Styles */
 /*

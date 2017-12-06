@@ -6,3 +6,15 @@
 $('html').addClass('js').removeClass('no-js');
 
 $.noConflict();
+
+(function($) {
+  $('#usercomment-form').append('<ul id="results">');
+  $('#usercomment-form').on('submit', function(e) {
+    var tip = $('#tip').val();
+    e.preventDefault();
+    console.log("Form submitted!");
+    $.get(url, function(data) {
+      console.log("YOUR SUGGESTION:", data);
+    });
+  });
+})(jQuery);

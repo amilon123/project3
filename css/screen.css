@@ -601,6 +601,16 @@ form ol li {
   3. Organized by Base, Layout, Module, State
 */
 
+.js abbr[title] {
+  cursor: pointer;
+}
+
+abbr[title].expanded {
+    cursor: unset;
+    text-decoration: none;
+    border-bottom: 0;
+}
+
 @media screen and (min-width: 22.5em) {  /*360px*/
   #alexis img {
     width: 6.5em;
